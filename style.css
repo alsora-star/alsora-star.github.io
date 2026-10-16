@@ -8,3 +8,10 @@ h3 { font-size: 17px; margin: 24px 0 4px; }
 p, li { color: var(--sub); }
 a { color: var(--accent); }
 hr { border: 0; border-top: 1px solid var(--sub); opacity: .3; margin: 48px 0; }
+.back { margin: 0 0 24px; }
+.back a { text-decoration: none; }
+.services { list-style: none; padding: 0; margin: 0; }
+.services li { padding: 14px 0; border-bottom: 1px solid color-mix(in srgb, var(--sub) 25%, transparent); }
+.services li:last-child { border-bottom: 0; }
+.services a { font-size: 18px; font-weight: 700; }
+.services span { display: block; font-size: 15px; }
